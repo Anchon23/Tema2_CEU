@@ -12,3 +12,6 @@ def modificar(l):
     sumas = sum(l_temporal)
     l_temporal.insert(0, sumas)
     return l_temporal
+
+nueva_lista = modificar(lista)
+print( nueva_lista[0] == sum(nueva_lista[1:]) )
