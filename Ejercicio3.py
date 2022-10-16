@@ -8,3 +8,5 @@ def modificar(l):
     for i in l:
         if i%2 == 0:
             l_temporal.append(i)
+
+    sumas = sum(l_temporal)
