@@ -11,3 +11,4 @@ def modificar(l):
 
     sumas = sum(l_temporal)
     l_temporal.insert(0, sumas)
+    return l_temporal
